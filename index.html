@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Parmesh Bhatt">
+     <title>Advance Calculator</title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <h2><u>Advance Calculator</u></h2>
+     <div class="spna">
+          <h4><u>Amount-1 </u></h4><input type="number" name="First" id="First" placeholder="First_Amount" required autofocus class="input1">
+          <br>
+          <br>
+          <h4><u>Amount-2 </u></h4><input type="number" name="Second" id="Second" placeholder="second_amount" required autofocus class="input2">
+          <br><br>
+          <h4 class="operations"><u>Operations</u></h4>
+          <input type="button" value="+" class="plus" onclick="plus()">
+          <input type="button" value="-" class="minus" onclick="minus();">
+          <input type="button" value="*" class="mul" onclick="mul();">
+          <input type="button" value="/" class="divide" onclick="divide();">
+          <input type="button" value="%" class="module" onclick="module();">
+          <input type="button" value="^2" class="square" onclick="square();">
+          <input type="button" value="^(1/2)" class="square-root" onclick="square_root();">
+          <h4><u>Answer</u></h4>
+          <div class="answer"></div>
+          <script src="./cal.js"></script>
+     </div>
+</body>
+</html>
